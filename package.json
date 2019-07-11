@@ -1,0 +1,16 @@
+{
+  "name": "memoryusage",
+  "version": "1.0.0",
+  "main": "father.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --logHeapUsage"
+  },
+  "dependencies": {
+    "execa": "^2.0.3",
+    "jest": "^24.8.0",
+    "pidusage": "^2.0.17",
+    "wtfnode": "^0.8.0"
+  }
+}
